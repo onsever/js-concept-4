@@ -1,9 +1,10 @@
 import React from "react";
+import Clock from "./components/Clock";
 
 const App: React.FC = () => {
     return (
         <div>
-        <h1>Hello World</h1>
+            <Clock />
         </div>
     );
 }
